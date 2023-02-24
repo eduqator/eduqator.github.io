@@ -41,11 +41,15 @@ footer:
 social:
   - title: youtube
     url: https://www.youtube.com/@eduqator/about
+  - title: github
+    url: https://github.com/eduqator/eduqator.github.io
+
+githubrepo: https://github.com/eduqator/eduqator.github.io
 # Postal address (add as many lines as necessary)
 address:
 
 # Credits content
-credits: 'Freelancer theme by <a href="https://jekyllthemes.io/theme/freelancer-theme">jekyllthemes.io</a>.'
+credits: 'Freelancer theme by <a href="https://jekyllthemes.io/theme/freelancer-theme">jekyllthemes.io</a>'
 
 # Build settings
 markdown: kramdown

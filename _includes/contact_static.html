@@ -9,7 +9,9 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+        <p><input type="checkbox" id="contactformcheck" onclick="toggleForm()"> Ich habe die <a href="https://formspree.io/legal/privacy-policy/" target="_blank">Datenschutzerklärung von formspree.io</a> gelesen und akzeptiert.</p>
+
+        <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" style="display:none" novalidate>
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Name</label>
@@ -46,6 +48,7 @@
             </div>
           </div>
         </form>
+        
       </div>
     </div>
   </div>
